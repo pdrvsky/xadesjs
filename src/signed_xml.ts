@@ -139,6 +139,10 @@ export class SignedXml extends XmlDSigJs.SignedXml {
         return super.Sign.apply(this, arguments as any);
     }
 
+    public async SignDetached(algorithm: Algorithm, key: CryptoKey, options?: OptionsXAdES) {
+        return super.SignDetached.apply(this, arguments as any);
+    }
+
     //#endregion
 
     //#region Protected methods

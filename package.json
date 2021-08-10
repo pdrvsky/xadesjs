@@ -51,7 +51,7 @@
   "homepage": "https://github.com/PeculiarVentures/xadesjs#readme",
   "dependencies": {
     "xml-core": "^1.1.4",
-    "xmldsigjs": "^2.5.0"
+    "xmldsigjs": "https://github.com/pdrvsky/xmldsigjs.git#xmldsigjs-v2.5.1-gitpkg"
   },
   "devDependencies": {
     "@babel/core": "^7.17.10",
